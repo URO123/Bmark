@@ -1,0 +1,159 @@
+.our {
+    margin-bottom: 148px;
+}
+.our__inner {
+margin-bottom: 2px;
+position: relative;
+}
+.our__title {
+    font-family: 'Catamaran';
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 130.435% */
+letter-spacing: 0.92px;
+text-align: center;
+margin-bottom: 15px;
+padding-right: 200px;
+}
+.our__text {
+    font-family: 'Catamaran';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.36px;
+width: 660px;
+text-align: center;
+margin-bottom: 100px;
+}
+.div-div{
+    padding-left: 240px;
+}
+.our__list {
+    @include flex-starter;
+    gap: 30px;
+}
+.our__item {
+    list-style: none;
+    width: 310px;
+    height: 470px;
+    padding-top: 40px;
+    padding-left: 25px;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+.our__item-img {
+    width: 88px;
+    height: 90px;
+    background-color: #e4c4ff;
+    border-radius: 10px;
+}
+.our__item-img1 {
+    width: 88px;
+    height: 90px;
+    background-color: #fabec5;
+    border-radius: 10px;
+}
+.our__item-img2 {
+    width: 88px;
+    height: 90px;
+    background-color: #bff7f2;
+    border-radius: 10px;
+}
+.our__item-title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: 'Catamaran';
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 33px; /* 157.143% */
+letter-spacing: 0.42px;
+}
+.our__item-text {
+    color: #858585;
+    font-family: 'Catamaran';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+margin-bottom: 25px;
+width: 290px;
+}
+.ass{
+    margin-bottom: 87px;
+}
+.our__item:hover{
+    border-radius: 20px;
+    box-shadow: 0px 18px 41px 0px rgba(0, 0, 0, 0.286);
+    transform: scale(1.1);
+}
+.our__item-btn {
+    background-color: #D22238;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 40px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Catamaran';
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 166.667% */
+letter-spacing: 0.3px;
+position: relative;
+
+&::before{
+    background-image: url(/images/Arrow\ Right.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-position: center;
+    position: absolute;
+    left: 100px;
+}
+}
+.our__item-btn:hover{
+    background-color: #ffffff;
+    color: #888888;
+    text-decoration: none;
+    padding: 15px 40px;
+    padding-left: 20px;
+    border: solid 2px #888888;
+    border-radius: 10px;
+
+    &::before{
+        background-image: url(/images/Arrow\ Right\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-size: 25px;
+        width: 25px;
+        height: 25px;
+        content: "";
+        background-position: center;
+        position: absolute;
+        left: 100px;
+    }
+}
+.our__item-btn:active{
+    opacity: 0.4;
+}
+.aur__title {
+    color: #F5F5F5;
+position: absolute;
+text-align: center;
+font-family: 'Catamaran';
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 26.25px;
+transform: rotate(90deg);
+top: 425px;
+right: -220px;
+}

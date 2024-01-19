@@ -1,0 +1,13 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+    object-fit: cover;
+}
+body{
+    font-family: 'Catamaran' sans-serif;
+    overflow-x: hidden;
+}

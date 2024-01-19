@@ -1,0 +1,177 @@
+.header {
+    margin-bottom: 12px;
+}
+.header__inner {
+    padding-top: 10px;
+    @include flex-starter;
+}
+.site-header__link {
+    text-decoration: none;
+    color:black;
+}
+.site-header__logo {
+    margin-right: 210px;
+}
+.site-header__list {
+    @include flex-starter;
+    gap: 45px;
+}
+.site-header__item {
+    list-style: none;
+    position: relative;
+    font-family: 'Catamaran';
+}
+.site-header__item3 {
+    list-style: none;
+    position: relative;
+    font-family: 'Catamaran';
+}
+.site-header__item4 {
+    list-style: none;
+    position: relative;
+    font-family: 'Catamaran';
+}
+.site-header__item::before{
+    background-image: url(../images/Arrow\ Down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 4px;
+}
+.site-header__item::before{
+    background-image: url(../images/Arrow\ Down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 4px;
+}.site-header__item4::before{
+    background-image: url(../images/Arrow\ Down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    position: absolute;
+    left: 70px;
+    top: 4px;
+}
+.site-header__item0 {
+    list-style: none;
+    font-family: 'Catamaran';
+}
+.site-header__item1 {
+    list-style: none;
+    font-family: 'Catamaran';
+}
+.site-header__item2 {
+    font-family: 'Catamaran';
+    list-style: none;
+    margin-right: 10px;
+}
+.header__item-link {
+    text-decoration: none;
+    position: relative;
+    color:black;
+}
+.header-link {
+    text-decoration: none;
+    color:black;
+    margin-left: 96px;
+    position: relative;
+}
+.header-link::after{
+    background-image: url(../images/flag-Stars-and-Stripes-May-1-1795\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 25px 15px;
+    content: "";
+    width: 25px;
+    height: 15px;
+    background-position: center;
+    position: absolute;
+    top: 3px;
+    right: 22px;
+}
+.header-link::before{
+    background-image: url(../images/Arrow\ Down.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    position: absolute;
+    top: 3px;
+    left: 27px;
+}
+.sublist{
+    position: absolute;
+    width: 124px;
+    padding: 5px 11px;
+    background-color: #fff;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 24px 0px #0000001A;
+    list-style: none;
+}
+.sublist1{
+    position: absolute;
+    width: 124px;
+    padding: 5px 11px;
+    margin-left: -13px;
+    background-color: #fff;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 24px 0px #0000001A;
+    list-style: none;
+}
+.sublist2{
+    position: absolute;
+    width: 84px;
+    padding: 5px 5px;
+    padding-left: 10px;
+    background-color: #fff;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 24px 0px #0000001A;
+    list-style: none;
+    left: calc(50% + 440px);
+}
+.sublist__link{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Catamaran';
+}
+.sublist__item{
+    padding: 5px 11px;
+    cursor: pointer;
+}
+.sublist__item2{
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.sublist__item:hover{
+    background-color: rgb(234, 234, 234);
+}
+.sublist__item2:hover{
+    background-color: rgb(234, 234, 234);
+}
+.open{
+    display: block;
+}
+.a2{
+    padding-top: 3px;
+}
+.a4{
+    padding-top: 3px;
+}
